@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <style>
+    
+        body{
+            margin: 0px;
+            padding: 0px;
+            background-color: aliceblue;
+        }
+        .head1 {
+            position:relative;
+            justify-content: center;
+            align-items: center;
+            
+            height: 100px;
+            width: 300px;
+            color: rgb(40, 111, 173);
+
+        }
+        .head2{
+            margin-left: 33%;
+            height: 680px;
+            width: 500px;
+            padding: 5px;
+            background-color: #ffffff;
+        }
+        .head3{
+            text-align: center;
+            line-height: 8px;
+        
+        }
+        .head3 p{
+            color: hsl(0, 1%, 60%);
+        }
+        .head6{
+            height: 30px;
+            width: 215px;
+            padding: 3px;
+            margin-left: 15px;
+            border-radius: 9px;
+
+            
+        }
+        .head7{
+            height: 30px;
+            width: 460px;
+            padding: 5px;
+            margin: 5px;
+            border-radius: 9px;
+
+        }
+        .head8 p{
+            margin-left: 15px;
+            display: flex;
+            
+        }
+        .head8 {
+            margin: 20px;
+            border-radius: 9px;
+            margin-top: 18px;
+
+        }
+        #month-select{
+            margin-left: 5px;
+            margin-right: 5px;
+            width: 138px;
+            height: 40px;
+            border-radius: 9px;
+        }
+        #date-select{
+            width: 138px;
+            margin-left: 5px;
+            margin-right: 5px;
+            height: 40px;
+            border-radius: 9px;
+        }
+        #year-select{
+            width: 138px;
+            height: 40px;
+            margin-left: 5px;
+            margin-right: 5px;
+            border-radius: 9px;
+        }
+        .day{
+            line-height: 1px;
+        }
+        .head9{
+            display: inline;
+        }
+        a{
+            display: inline-flex;
+        }
+        .head9{
+            display: inline;
+            color: gray;
+            font-size: medium;
+        }
+        #term {
+            display: inline;
+            padding: 2px;
+            margin: 2px;
+            color: gray;
+            font-size: medium;
+        }
+        .sign{
+            
+            margin-top: 15px;
+            margin-left: 30%;
+            width: 45%;
+            height: 20%;
+            border-radius: 8px;
+            background-color: green;
+            font-size: x-large;
+            color: #ffffff;
+            
+        }
+        .last{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 5px;
+        }
+        a{
+            text-decoration: none;
+        }
+        .head1{
+            display: flex;
+            margin-left: 40%;
+            font-size: 200%;
+        
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="head">
+        <div class="head1">
+        <h1>facebook</h1>
+        </div>
+        <div class="head2">
+            <div class="head3">
+                <h2>Create a new account </h2>
+                <p >It's quick and easy.</p>
+            </div>
+            <div class="head4"><hr></div>
+           
+            <div class="head5">
+                
+                    <input class="head6" type="text" placeholder="First name"> 
+                    <input class="head6" type="text" placeholder=" surname">
+                       <div class="head7">
+                <div class="mobile">
+                    <input class="head7" type="email"placeholder="Mobile number or email address">
+                </div>
+                <div class="password">
+                    <input class="head7"type="password"placeholder="New password">
+                </div>
+            </div>
+        </div>
+        <br>
+        <br><br><br>
+       <div class="head8">
+        <div class="day">
+        <p>Date of birth </p>
+        
+        <select name="date" id="date-select">
+            <option value="31">31</option>
+        </select>
+                <select name="month" id="month-select"><option value="jun">jun</option></select>
+                <select name="year" id="year-select">
+                <option value="2023">2023</option>
+            </select>
+        </div>
+        <div class="gender">
+            <p>Gender</p>
+            <form action=""><input type="radio"id="male">
+                <label for="male">male</label>
+                <input type="radio"id="female">
+                <label for="female">female</label>
+                <input type="radio"id="custom">
+                <label for="custom">custom</label></form>
+           
+        </div>
+    </div>
+        <div class="head9">
+            <p>
+                People who use our service may have uploaded your contact information to Facebook. 
+                  <a  href= "#"> Learn  more.</a>  
+            </p>
+            <p id="term">
+                By clicking Sign Up, you agree to our  <a href="#"> Terms </a>   <a href="#">  Privacy  Policy </a> and  <a href="#">Cookies Policy</a> You may receive SMS notifications from us and can opt out at any time.
+            </p>
+            <br>
+        </div>
+    <div class="footer">
+        
+            <button type="submit" class ="sign">Sign Up</button>
+        <div class="last">
+            <a class="last" href="#">Already have an account?</a>
+        </div>
+    </div>
+    </div>
+
+</body>
+</html>
